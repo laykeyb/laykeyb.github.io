@@ -154,13 +154,13 @@ button:hover {
 }
 #contact-section {
     width: 100%;
-    height: 60vh;
+    height: auto;
     background-color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0.5rem 0;
+
 }
 
 .contact {
