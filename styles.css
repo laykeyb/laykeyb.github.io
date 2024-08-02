@@ -154,7 +154,7 @@ button:hover {
 }
 #contact-section {
     width: 100%;
-    height: auto;
+    height: fit-content;
     background-color: #333;
     display: flex;
     justify-content: center;
