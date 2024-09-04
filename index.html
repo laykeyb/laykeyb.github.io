@@ -1,569 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fintech website</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div class="container-fluid">
-      <div class="row bg-primary text-center text-white menu--before">
-        <div class="col-7">
-          Learn as if you will live forever, live like you will die tomorrow.
-        </div>
-        <div class="col-2"><i class="fa-solid fa-tty"></i> +1 555 87 89 56</div>
-        <div class="col-3">
-          <i class="fa-solid fa-map-pin"></i> 80 Harrison Lane, FL 32547
-        </div>
-      </div>
-    </div>
-    <!--START THE NAVBAR SECTION-->
-    <nav
-      class="navbar navbar-expand-lg menu bg-white"
-      style="position: sticky; top: 0; z-index: 20;"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/affirm-fintech.png"
-            alt="logo image"
-            class="img-fluid"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Demos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pages</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
-            </li>
-          </ul>
-          <button type="button" class="rounded btn-rounded">
-            <span>Get a Qoute</span>
-          </button>
-        </div>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+        </ul>
     </nav>
-
-    <!--START THE INTRO SECTION-->
-
-    <section class="home-section" id="home">
-      <div class="container">
-        <div class="intro-section rounded-5 p-3">
-          <!--may need to remove the p-5 class-->
-          <div class="row">
-            <h1 class="display-2">
-              <span class="display-2--title fw-bold"
-                >Experience the easier way for transactions</span
-              >
-              <span class="display-2--description lh-base"
-                >Affirm is the easiest way to make transactions with your
-                friends and family, no matter where you are. An exceptional way
-                to make your life one step easier.
-              </span>
-            </h1>
-            <button type="button" class="rounded btn-rounded d-block mx-auto">
-              <span
-                >See how it works
-                <i class="fas fa-play-circle"></i>
-              </span>
-            </button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="img-container">
-            <img
-              class="img-fluid"
-              src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/fintech-hero-woman.webp"
-              alt="balance illustration"
-            />
-            <div class="mini-images">
-              <img
-                class="mini-images--1"
-                src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/fintech-hero-balance.webp"
-                alt=""
-              />
-              <img
-                class="mini-images--2"
-                src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/fintech-hero-spendings.webp"
-                alt=""
-              />
+    <header id="welcome-section">
+        <article>
+            <h1>Hey I am Tiamiyu Olamilekan</h1>
+            <p class="job-description">a web developer</p>
+        </article>
+    </header>
+    <main>
+        <section id="projects" class="projects-section">
+            <h2 class="project-text"><span class="underline-text">These are some of my projects</span></h2>
+            <div class="projects-container">
+                <a href="https://codepen.io/Olamilekan-Tiamiyu/pen/mdZWZwm" class="project-tile">
+                    <img src="https://codepen.io/Olamilekan-Tiamiyu/pen/mdZWZwm/image/large.png" alt="">
+                    <div class="img-title-container">
+                        <p class="img-title">Survey Form</p>
+                    </div>
+                </a>
+                <a href="https://codepen.io/Olamilekan-Tiamiyu/pen/YzoZoEN" class="project-tile">
+                    <img src="https://codepen.io/Olamilekan-Tiamiyu/pen/YzoZoEN/image/large.png" alt="">
+                    <div class="img-title-container">
+                        <p class="img-title"> Tribute Page</p>
+                    </div>
+                </a>
+                <a href="https://codepen.io/Olamilekan-Tiamiyu/pen/vYqxqpx" class="project-tile">
+                    <img src="https://codepen.io/Olamilekan-Tiamiyu/pen/vYqxqpx/image/large.png" alt="">
+                    <div class="img-title-container">
+                        <p class="img-title">Python Documentation Page</p>
+                    </div>
+                </a>
+                <a href="https://codepen.io/Olamilekan-Tiamiyu/pen/abgJgqO" class="project-tile">
+                    <img src="https://codepen.io/Olamilekan-Tiamiyu/pen/abgJgqO/image/large.png" alt="">
+                    <div class="img-title-container">
+                        <p class="img-title">Product Landing Page</p>
+                    </div>
+                </a>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--START THE COMPANIES SECTION-->
-
-    <section id="companies" class="companies">
-      <div class="container">
-        <div class="row text-center">
-          <h2 class="display-5 fw-bold">Trusted by</h2>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-2 col-6">
-            <div class="companies__logo-box">
-              <img
-                src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/04/fintech-consultant-logo-1.png"
-                alt="logo 1 image"
-                class="img-fluid"
-              />
+            <a href="https://codepen.io/Olamilekan-Tiamiyu/pens/public"><button type="button" value="Show all">Show all</button></a>
+        </section>
+        <section id="contact-section">
+            <!-- <div class="contact">-->
+            <article>
+                <h2 class="contact-title-text">Lets work together...</h2>
+                <p class="contact-paragraph">Contact me </p>
+            </article>
+            <div class="contact-icons-wrapper">
+                <a id="profile-link" href="https://github.com/laykeyb/" target="_blank">
+                    <p><i class="fab fa-github-square"></i> GitHub</p>
+                </a>
+                <a href="mailto:laykeyb@gmail.com">
+                    <p><i class="fas fa-at"></i> Mail me</p>
+                </a>
+                <a href="http://wa.link/110yw9" target="_blank">
+                    <p><i class="fab fa-whatsapp"></i> Text me</p>
+                </a>
+                <a href="tel:+2348161890460" target="_blank">
+                    <p><i class="fas fa-phone"></i> Phone me</p>
+                </a>
+                <a href="#">
+                    <p><i class="fab fa-facebook"></i> Facebook</p>
+                </a>
             </div>
-          </div>
-          <div class="col-lg-2 col-6">
-            <div class="companies__logo-box">
-              <img
-                src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/04/fintech-consultant-logo-2.png"
-                alt="logo 2 image"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="col-lg-2 col-6">
-            <div class="companies__logo-box">
-              <img
-                src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/04/fintech-consultant-logo-3.png"
-                alt="logo 3 image"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="col-lg-2 col-6">
-            <div class="companies__logo-box">
-              <img
-                src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/04/fintech-consultant-logo-4.png"
-                alt="logo 4 image"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="col-lg-2 col-6">
-            <div class="companies__logo-box">
-              <img
-                src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/04/fintech-consultant-logo-5.png"
-                alt="logo 5 image"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      .
-    </section>
+            <!-- </div>
+            <div class="footer"></div>-->
+        </section>
+    </main>
+</body>
 
-    <!--START THE SERVICES SECTION-->
-
-    <section id="services" class="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 services">
-            <div class="services__content">
-              <h2 class="display-5 fw-bold">
-                Real time currency check and easier tracking system
-              </h2>
-              <p class="lead lh-base">
-                Affirm is the easiest way to transact with your friends and
-                family. No matter where you are. An exceptional way to make your
-                life one step easier. Affirm is the easiest way to transact with
-                your friends.
-              </p>
-              <button type="button" class="rounded btn-rounded-light">
-                <i class="fas fa-arrow-right"></i> Explore now
-              </button>
-            </div>
-          </div>
-          <div class="col-lg-6 services">
-            <div class="services__pic">
-              <img
-                class="img-fluid text-end"
-                src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/fintech-send-money.webp"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--START THE HOW IT WORKS SECTION-->
-    <section class="how-it-works" id="how-it-works">
-      <div class="container">
-        <div class="row">
-          <h2 class="display-5">
-            <span class="fw-bold display-5--title">How it works?</span>
-            <span class="display-5--description">
-              <p class="mb-1">
-                Affirm is the easiest way to transact with your friends and
-                family.
-              </p>
-              <p>
-                No matter where you are. An exceptional way to make your life
-                one step easier.
-              </p>
-            </span>
-          </h2>
-        </div>
-
-        <div class="row mt-5">
-          <div class="col-md-4">
-            <div class="card rounded-circle-cards">
-              <div class="rounded-image rounded-circle">
-                <img
-                  src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/fintech-icon-3.webp"
-                  class="card-img-top"
-                  alt="..."
-                />
-              </div>
-              <div class="card-body">
-                <h4 class="card-title">Create an account</h4>
-                <p class="card-text lh-lg lead fw-light">
-                  Create a free account for your transactions. It’s pretty easy
-                  and don’t worry, we care about your safety.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card rounded-circle-cards">
-              <div class="rounded-image">
-                <img
-                  src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/fintech-icon-1.webp"
-                  class="card-img-top"
-                  alt="..."
-                />
-              </div>
-              <div class="card-body">
-                <h4 class="card-title">Create an account</h4>
-                <p class="card-text lh-lg lead fw-light">
-                  Create a free account for your transactions. It’s pretty easy
-                  and don’t worry, we care about your safety.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card rounded-circle-cards">
-              <div class="rounded-image">
-                <img
-                  src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/fintech-icon-2.webp"
-                  class="card-img-top"
-                  alt="..."
-                />
-              </div>
-              <div class="card-body">
-                <h4 class="card-title">Create an account</h4>
-                <p class="card-text lead lh-lg fw-light">
-                  Create a free account for your transactions. It’s pretty easy
-                  and don’t worry, we care about your safety.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--START THE FEATURES SECTION-->
-    <section id="features" class="features">
-      <div class="container">
-        <div class="row">
-          <h2 class="display-5 fw-bold">Worthy features that you will love</h2>
-        </div>
-        <!--THE FEATURES CONTENT-->
-
-        <!--THE SAVINGS FEATURE-->
-        <div class="row">
-          <div class="col-md-6 col-md-6 features mt-4">
-            <div class="features__pic">
-              <img
-                src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/fintech-transaction.webp"
-                alt="features 1 image"
-                title="Feature 1 Image"
-                class="img-fluid text-start"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 features mt-4">
-            <div class="features__content">
-              <h2 class="display-5 fw-bold">
-                Boost your savings by cutting extra fees
-              </h2>
-              <p class="lead lh-base">
-                Affirm is the easiest way to transact with your friends and
-                family. No matter where you are. An exceptional way to make your
-                life one step easier. Affirm is the easiest way to transact with
-                your friends.
-              </p>
-              <button type="button" class="rounded btn-rounded-light">
-                <i class="fas fa-arrow-right"></i> Explore now
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 features mt-4">
-            <div class="features__content">
-              <h2 class="display-5 fw-bold">
-                Capable of taking multiple cards in one place
-              </h2>
-              <p class="lead lh-base">
-                Affirm is the easiest way to transact with your friends and
-                family. No matter where you are. An exceptional way to make your
-                life one step easier. Affirm is the easiest way to transact with
-                your friends.
-              </p>
-              <button type="button" class="rounded btn-rounded-light">
-                <i class="fas fa-arrow-right"></i> Explore now
-              </button>
-            </div>
-          </div>
-          <div class="col-md-6 col-md-6 features mt-4">
-            <div class="features__pic">
-              <img
-                src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/fintech-card-1.webp"
-                alt="features 2 image"
-                title="Feature 2 Image"
-                class="img-fluid text-start"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-md-6 features mt-4">
-            <div class="features__pic">
-              <img
-                src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/fintech-report.webp"
-                alt="features 3 image"
-                title="Feature 3 Image"
-                class="img-fluid text-start"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 features mt-4">
-            <div class="features__content">
-              <h2 class="display-5 fw-bold">
-                Stay updated with your daily reports and news
-              </h2>
-              <p class="lead lh-base">
-                Affirm is the easiest way to transact with your friends and
-                family. No matter where you are. An exceptional way to make your
-                life one step easier. Affirm is the easiest way to transact with
-                your friends.
-              </p>
-              <button type="button" class="rounded btn-rounded-light">
-                <i class="fas fa-arrow-right"></i> Explore now
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--START THE MAP SECTION-->
-    <section id="map" class="map">
-      <div class="container">
-        <div class="row">
-          <h2 class="display-5">
-            <span class="display-5--title"
-              >Widely covering these countries</span
-            >
-            <span class="display-5--description text-white-50"
-              >Affirm is the easiest way to transact with your friends and
-              family. No matter where you are. An exceptional way to make your
-              life one step easier.
-            </span>
-          </h2>
-        </div>
-        <div class="row">
-          <img
-            src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/04/fintech-dotted-map-1536x758.png"
-            alt="Map Image"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!--START THE TESTIMONIAL SECTION-->
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 testimonials">
-            <div class="testimonials__pic">
-              <img
-                src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/fintech-testimonial.webp"
-                alt=""
-                class="img-fluid"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 testimonials mt-5">
-            <div class="testimonials__content">
-              <h2 class="display-5 fw-bold mt-1">
-                What people are saying about us
-              </h2>
-              <q class="fst-italic"
-                >Affirm did exactly what you said it does. Affirm is the next
-                killer app. Not able to tell you how happy I am with Affirm.
-                It’s really wonderful.</q
-              >
-              <div class="testimonials__name">
-                <h3>Amanda Smith</h3>
-                <p class="fw-light">CEO, FastMoney</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--START THE GET STARTED SECTION-->
-    <section id="get-started" class="get-started">
-      <div class="container">
-        <div class="row text-center">
-          <div class="cta rounded-5">
-            <div class="col-12">
-              <div class="cta-info">
-                <h2 class="display-5 fw-bold text-white">
-                  Get connected with Affirm and enjoy your new experience
-                </h2>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="form">
-                <div class="input-group mb-3 p-3 bg-white rounded-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder=""
-                    aria-label="Sign Up"
-                    aria-describedby="button-addon1"
-                  />
-                  <button
-                    class="btn btn-rounded"
-                    type="button"
-                    id="button-addon1"
-                  >
-                    Sign Up
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--START THE FOOTER SECTION-->
-    <footer>
-      <div class="container mt-5">
-        <div class="row mt-3 pb-3 justify-content-center">
-          <div class="col-12 col-sm-6 col-lg-5 mx-auto">
-            <img
-              src="https://affirm.uicore.co/fintech/wp-content/uploads/sites/4/2021/09/affirm-fintech.png"
-              alt="logo image"
-              class="img-fluid mb-4"
-            />
-            <p class="lh-lg text-primary">
-              Affirm is the easiest way to transact with your friends and
-              family. An exceptional way to make your life one step easier.
-            </p>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-            <h5 class="text-capitalize fw-bold">Company</h5>
-            <ul class="list-inline company-list">
-              <li><a href="">About Us</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-            <h5 class="text-capitalize fw-bold">Solutions</h5>
-            <ul class="list-inline company-list">
-              <li><a href="">Business Consulting</a></li>
-              <li><a href="">Financial Advisory</a></li>
-              <li><a href="">Business Planning</a></li>
-            </ul>
-          </div>
-          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-            <h5 class="text-capitalize fw-bold">Company</h5>
-            <ul class="list-inline company-list">
-              <li>
-                <a href=""><i class="fas fa-phone"></i>(832) 231-5685</a>
-              </li>
-              <li>
-                <a href=""><i class="fas fa-envelope"></i>hello@affirm.com</a>
-              </li>
-              <li>
-                <a href=""
-                  ><i class="fas fa-globe"></i>3701 Rollins Road, London</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom pt-4 pb-4 bg-primary">
-        <div class="container">
-          <div class="row text-start text-white">
-            <div class="footer-bottom__copyright">
-              &COPY; 2024 Affirm WordPress Theme by UiCore. All Rights Reserved
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!--THE BACK TO TOP BUTTON-->
-
-    <a href="#home" class="shadow btn-primary rounded-circle back-to-top">
-      <i class="fas fa-chevron-up"></i>
-    </a>
-
-    <script src="/assets/js/bootstrap.bundle.js"></script>
-    <script src="assets/js/script.js"></script>
-  </body>
 </html>
